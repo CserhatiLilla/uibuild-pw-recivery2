@@ -3,13 +3,6 @@ body {
   background-color: #e6e6e6;
 }
 
-@media only screen and (max-width: 520px) {
-  body {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
 body #root {
   width: 100%;
   min-height: 100vh;

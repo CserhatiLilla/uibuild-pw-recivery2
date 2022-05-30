@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e6e6e6;
+}
+
+@media only screen and (max-width: 520px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+body #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body #root h1 {
+  position: relative;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #138073;
+}
+
+@media only screen and (max-width: 520px) {
+  body #root h1 {
+    font-size: 24px;
+  }
+}
+
+body #root div {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 520px;
+  height: auto;
+  background-color: #fff;
+  color: #138073;
+}
+
+@media only screen and (max-width: 520px) {
+  body #root div {
+    width: 100%;
+  }
+}
+
+body #root div p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+body #root div p span {
+  font-weight: 500;
+}
+
+body #root div input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  width: 480px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #b3b3b3;
+  background-color: #fff;
+  border: solid 3px;
+  border-color: #999;
+}
+
+@media only screen and (max-width: 520px) {
+  body #root div input {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
